@@ -11,7 +11,7 @@ namespace Tyuiu.SchcapovMA.Sprint5.Task0.V5
             //Длинна строки 75 символов
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл.                       *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #5                                                              *");
             Console.WriteLine("* Выполнил: Щапов Максим Александрович | ИБКСб-24-1                       *");
