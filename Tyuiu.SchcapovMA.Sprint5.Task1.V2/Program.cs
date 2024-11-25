@@ -1,4 +1,5 @@
-﻿using Tyuiu.SchcapovMA.Sprint5.Task1.V2.Lib;
+﻿using System.IO;
+using Tyuiu.SchcapovMA.Sprint5.Task1.V2.Lib;
 namespace Tyuiu.SchcapovMA.Sprint5.Task1.V2
 {
     internal class Program
@@ -37,6 +38,13 @@ namespace Tyuiu.SchcapovMA.Sprint5.Task1.V2
             string res = ds.SaveToFileTextData(startValue,stopValue);
             Console.WriteLine("Файл: " + res);
             Console.WriteLine("Создан!");
+            Console.WriteLine("***************************************************************************");
+            string[] readText = File.ReadAllLines(res);
+            foreach (string s in readText)
+            {
+                Console.WriteLine(s);
+            }
+            Console.WriteLine("***************************************************************************");
             Console.ReadKey();
         }
     }
