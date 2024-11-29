@@ -17,7 +17,7 @@ namespace Tyuiu.SchcapovMA.Sprint5.Task4.V23
             Console.WriteLine("* Выполнил: Щапов Максим Александрович | ИБКСб-24-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Дан файл С:\\DataSprint5\\InPutDataFileTask4V0.txt (файл взять из       *");
+            Console.WriteLine("* Дан файл С:\\DataSprint5\\InPutDataFileTask4V23.txt (файл взять из       *");
             Console.WriteLine("* архива согласно вашему варианту.Создать папку в ручную С:\\DataSprint5\\*");
             Console.WriteLine("* и скопировать в неё файл) в котором есть вещественное значение.         *");
             Console.WriteLine("* Прочитать значение из файла и подставить вместо Х в формуле             *");
