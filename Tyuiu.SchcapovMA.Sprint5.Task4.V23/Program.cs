@@ -27,7 +27,7 @@ namespace Tyuiu.SchcapovMA.Sprint5.Task4.V23
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ                                                         *");
             Console.WriteLine("***************************************************************************");
-            string path = @"С:\DataSprint5\InPutDataFileTask4V23";
+            string path = @"C:\Users\Haier\AppData\Local\Temp\InPutDataFileTask4V23.txt";
             Console.WriteLine("Данные находятся в файле: " + path);
 
             Console.WriteLine("***************************************************************************");

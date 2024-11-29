@@ -8,7 +8,7 @@ namespace Tyuiu.SchcapovMA.Sprint5.Task4.V23.Test
         [TestMethod]
         public void ValidLoadFromDataFile()
         {
-            string path = @"Ñ:\DataSprint5\InPutDataFileTask4V23";
+            string path = @"C:\Users\Haier\AppData\Local\Temp\InPutDataFileTask4V23.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
