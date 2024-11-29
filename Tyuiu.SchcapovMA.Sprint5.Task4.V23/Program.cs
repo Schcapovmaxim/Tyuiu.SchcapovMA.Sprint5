@@ -11,7 +11,7 @@ namespace Tyuiu.SchcapovMA.Sprint5.Task4.V23
             //Длинна строки 75 символов
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Потоковый метод записи данных в бинарный файл.                    *");
+            Console.WriteLine("* Тема: Чтение данных из текстового файла                                 *");
             Console.WriteLine("* Задание #4                                                              *");
             Console.WriteLine("* Вариант #23                                                             *");
             Console.WriteLine("* Выполнил: Щапов Максим Александрович | ИБКСб-24-1                       *");
@@ -36,6 +36,7 @@ namespace Tyuiu.SchcapovMA.Sprint5.Task4.V23
             double res = ds.LoadFromDataFile(path);
             
             Console.WriteLine(res);
+            Console.ReadKey();
             
         }
     }
