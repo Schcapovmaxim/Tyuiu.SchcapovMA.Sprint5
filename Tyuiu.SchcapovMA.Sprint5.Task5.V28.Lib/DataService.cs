@@ -27,12 +27,13 @@ namespace Tyuiu.SchcapovMA.Sprint5.Task5.V28.Lib
                             if (res < min)
                             {
                                 min = (int)res;
-                                for (int i = 1; i <= min; i++)
-                                {
-                                    fact *= i;
-                                }
+                                
                             }
                         }
+                    }
+                    for (int i = 1; i <= min; i++)
+                    {
+                        fact *= i;
                     }
                 }
             }
