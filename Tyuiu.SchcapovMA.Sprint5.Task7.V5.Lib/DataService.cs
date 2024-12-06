@@ -2,7 +2,7 @@
 using tyuiu.cources.programming.interfaces.Sprint5;
 namespace Tyuiu.SchcapovMA.Sprint5.Task7.V5.Lib
 {
-    public class DataService : ISprint5Task7V15
+    public class DataService : ISprint5Task7V5
     {
         public string LoadDataAndSave(string path)
         {
@@ -22,7 +22,7 @@ namespace Tyuiu.SchcapovMA.Sprint5.Task7.V5.Lib
                     for (int i = 0; i < line.Length; i++)
                     {
                         string alf = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-                        if ((alf.Count(x => x == line[i])) == 0) 
+                        if ((alf.Count(x => x == line[i])) == 0)
                         {
                             strLine += line[i];
                         }
