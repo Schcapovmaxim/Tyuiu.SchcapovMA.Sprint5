@@ -27,6 +27,7 @@ namespace Tyuiu.SchcapovMA.Sprint5.Task7.V5.Lib
                             strLine += line[i];
                         }
                     }
+                    strLine = strLine.Replace("    .", ".");
                     File.AppendAllText(pathSaveFile, strLine + Environment.NewLine);
                     strLine = "";
                 }
